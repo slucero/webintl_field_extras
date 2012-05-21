@@ -1,6 +1,7 @@
 <?php
 /**
  * @file
+ * Code for the WebIntl: Field Extras feature.
  */
 
-// Drupal needs this blank file.
+include_once 'webintl_field_extras.features.inc';

@@ -45,11 +45,11 @@ function webintl_field_extras_field_default_fields() {
       'description' => '',
       'display' => array(
         'default' => array(
-          'label' => 'above',
+          'label' => 'hidden',
           'module' => 'text',
           'settings' => array(),
           'type' => 'text_default',
-          'weight' => 4,
+          'weight' => '3',
         ),
       ),
       'entity_type' => 'field_collection_item',
@@ -108,11 +108,11 @@ function webintl_field_extras_field_default_fields() {
       'description' => 'A textual label that to designate this specific address.',
       'display' => array(
         'default' => array(
-          'label' => 'above',
+          'label' => 'hidden',
           'module' => 'text',
           'settings' => array(),
           'type' => 'text_default',
-          'weight' => 5,
+          'weight' => '0',
         ),
       ),
       'entity_type' => 'field_collection_item',
@@ -171,11 +171,11 @@ function webintl_field_extras_field_default_fields() {
       'description' => '',
       'display' => array(
         'default' => array(
-          'label' => 'above',
+          'label' => 'hidden',
           'module' => 'text',
           'settings' => array(),
           'type' => 'text_default',
-          'weight' => 0,
+          'weight' => '1',
         ),
       ),
       'entity_type' => 'field_collection_item',
@@ -234,11 +234,11 @@ function webintl_field_extras_field_default_fields() {
       'description' => '',
       'display' => array(
         'default' => array(
-          'label' => 'above',
+          'label' => 'hidden',
           'module' => 'text',
           'settings' => array(),
           'type' => 'text_default',
-          'weight' => 1,
+          'weight' => '2',
         ),
       ),
       'entity_type' => 'field_collection_item',
@@ -343,11 +343,11 @@ function webintl_field_extras_field_default_fields() {
       'description' => '',
       'display' => array(
         'default' => array(
-          'label' => 'above',
+          'label' => 'hidden',
           'module' => 'list',
           'settings' => array(),
-          'type' => 'list_default',
-          'weight' => 3,
+          'type' => 'list_key',
+          'weight' => '4',
         ),
       ),
       'entity_type' => 'field_collection_item',
@@ -403,11 +403,11 @@ function webintl_field_extras_field_default_fields() {
       'description' => '<em><strong>Example:</strong> 12345 or 12345-6789</em>',
       'display' => array(
         'default' => array(
-          'label' => 'above',
+          'label' => 'hidden',
           'module' => 'text',
           'settings' => array(),
           'type' => 'text_default',
-          'weight' => 2,
+          'weight' => '5',
         ),
       ),
       'entity_type' => 'field_collection_item',
